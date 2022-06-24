@@ -1,0 +1,325 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+
+.topnav{
+    background-color:  #588c7e;
+  margin: 4px 2px 4px 2px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  
+}
+
+body{
+    background-color: #e09c15;
+}
+
+  
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  input[type=text], input[type=email], input[type=password],  
+  input[type=tel], input[type=country], input[type=state], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  div {
+    border-radius: 15px;
+    background-color: #e09c15;
+    padding:20px ;
+  }
+  
+
+  
+  .indexcontact{
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+
+ 
+  h3{
+    text-align:center ;
+      margin-bottom: 0px;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 30px;
+      padding: 10px;
+      color: rgb(255, 255, 255);
+      }
+
+      h2{
+        text-align:center ;
+          margin-bottom: 0px;
+          font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-size: 30px;
+          padding: 10px;
+          color: rgb(40, 38, 38);
+          }
+
+
+
+  p{
+      padding-left: 40px;
+      padding-right: 30px;
+      font-size: 20px;
+  }
+  p::first-letter{
+      font-size: 40px;
+      font-family: cursive;
+  }
+
+
+
+  img{
+      border-radius: 30px;
+      border: 1px solid rgb(75, 72, 72);
+      padding: 5px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 30%;
+     height: 30%;
+      
+      
+  }
+  button{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+      
+  }
+  
+  
+  .allpriorities{
+      
+    margin: 10px;
+    padding:3px;
+    border-left: 3px solid black;
+  }
+
+  .allhobbies{
+      
+    margin: 10px;
+    padding:3px;
+    border-left: 3px solid black;
+  }
+
+  .allskills{
+      
+    margin: 10px;
+    padding:3px;
+    border-left: 3px solid black;
+  }
+
+
+  button:hover{
+      transition: ease-in-out 500ms;
+      background-color: #f2ae72;
+      border-color: #f2ae72;
+      color: #000;
+  }
+  #indexfoot{
+      background-color: #e2a544;
+    width:100%;
+  }
+
+  .header{
+    padding:1px;
+    font-size:20px;
+    border-radius: 10px;
+
+  }
+  li{
+    padding:10px;
+    font-size:20px;
+  }
+  .aboutme{
+    background: #e39623
+  }
+
+
+      
+      .hobbies {
+          
+       float: left;
+        margin: auto;
+        width: 45%;
+        border: 3px solid rgb(59, 67, 59);
+        padding: 10px;
+      }
+      
+      .priorities {
+        
+        margin: auto;
+        width: 50%;
+        border: 3px solid rgb(61, 62, 59);
+        padding: 10px;
+      }
+    
+      .skills {
+  
+          float: right;
+        margin: auto;
+        width: 50%;
+        border: 3px solid rgb(65, 72, 65);
+        padding: 10px;
+      }
+   /*contact page style*/
+          
+   .contactform{
+    border: 1px solid #588c7e;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 30px;
+    background-color: #588c7e;
+    border-radius: 20px;
+  padding:20px
+  
+          }
+         
+          textarea{
+              width:100%;
+              padding: 15px;
+              margin-bottom: 17px;
+            border-radius:4px;
+          }
+        
+          
+          #contactfoot{
+            background-color:  #588c7e;
+            text-align: center;
+            font-size: 20px;
+            margin: 5px;
+            align-items: center;
+            padding: 24px;
+            border-radius: 20px;
+          }
+   
+  
+  /*registration page style*/
+  
+  #registerfoot{
+    background-color:  #588c7e;
+      text-align: center;
+      font-size: 20px;
+      margin: 5px;
+      align-items: center;
+      padding: 24px;
+      border-radius: 20px;
+    
+  }
+  .registerform{
+      border: 1px solid #588c7e;
+      margin-left: 25%;
+      margin-right: 25%;
+      margin-bottom: 30px;
+      background-color: #588c7e;
+      border-radius: 20px;
+    padding:20px
+      
+  }
+ 
+  
+  
+  /* login page style*/
+  #loginfoot{
+    background-color:  #588c7e;
+      text-align: center;
+      font-size: 20px;
+      margin: 5px;
+      align-items: center;
+      padding: 24px;
+      border-radius: 20px;
+      right: 0px;
+      left:0px;
+   bottom:0px;
+   position: fixed;
+   
+  }
+  
+  .loginform{
+      border: 1px solid #588c7e;
+      margin-left: 25%;
+      margin-right: 25%;
+      margin-bottom: 30px;
+      background-color: #588c7e;
+      border-radius: 20px;
+      
+  }
+
+  #checkbox {
+    width: auto;
+    vertical-align: middle;
+    margin: 1.7px 1px 1px 22px;
+  }
+  #remember {
+    margin: 0px 2px 1px 6px;
+    font-size: 16px;
+  }
+
+  .forget {
+    margin: 1em;
+    padding: 0.5em;
+    font-size: 16px;
+  }
+
+  
